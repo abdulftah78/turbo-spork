@@ -1,0 +1,201 @@
+
+
+*{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(233, 225, 225);
+}
+.ul-menu{
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.li-menu{
+    float: right;
+}
+
+.title-menu{
+    font-size: 34px;
+    display: inline;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+}
+
+.li-menu a:hover{
+    background-color: black;
+}
+
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.proflie{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.social{
+    width: 32px;
+    padding: 5px;
+
+}
+
+.left{
+    width: 20%;
+    float: left;
+}
+
+.right{
+    width: 80%;
+    float: left;
+}
+
+.row{
+    padding: 5px;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.main-bar{
+    background-color: rgb(176, 154, 154);
+    display: block;
+    height: 25px;
+}
+
+.main-bar span{
+    background-color: teal;
+    height: 25px;
+    display: block;
+    color: white;
+}
+
+.javascript{
+    width: 65%;
+    animation: javascript 2s;
+}
+.java{
+    width: 90%;
+    animation: java 2s;
+}
+
+.photoshop{
+    width: 75%;
+    animation: photoshop 2s;
+}
+
+.android{
+    width: 40%;
+    animation: android 2s;
+}
+
+.csharp{
+    width: 80%;
+    animation: csharp 2s;
+}
+
+.github{
+    width: 50%;
+    animation: github 2s;
+}
+
+.linux{
+    width: 70%;
+    animation: linux 2s;
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes photoshop{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes android{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+@keyframes csharp{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes github{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes linux{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .column{
+        width: 100%;
+    }
+    
+}
